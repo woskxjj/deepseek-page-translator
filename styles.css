@@ -1,0 +1,20 @@
+/* styles.css */
+.ds-trans-node {
+  /* 关键修改：继承父元素颜色，不仅是黑色，而是完美融入原网页 */
+  color: inherit; 
+  
+  font-family: system-ui, -apple-system, sans-serif;
+  margin-left: 4px;
+  vertical-align: inherit;
+  
+  /* 可选：保留极淡的背景色以示区分，不需要则删除下面这一行 */
+  /* background-color: rgba(0, 0, 0, 0.03); */
+  
+ 
+}
+
+/* 加载中状态（可选） */
+.ds-trans-loading {
+  opacity: 0.7;
+  cursor: wait;
+}

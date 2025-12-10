@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { padding: 20px; font-family: sans-serif; width: 300px; }
+    input, select, button { width: 100%; margin-bottom: 10px; padding: 8px; box-sizing: border-box; }
+  </style>
+</head>
+<body>
+  <h2>DeepSeek 设置</h2>
+  <label>API Key:</label>
+  <input type="password" id="apiKey" placeholder="sk-...">
+  <label>Model:</label>
+  <select id="model">
+    <option value="deepseek-chat">deepseek-chat</option>
+  </select>
+  <button id="save">保存配置</button>
+  <div id="status"></div>
+  <script src="options.js"></script>
+</body>
+</html>
